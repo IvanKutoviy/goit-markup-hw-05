@@ -771,9 +771,11 @@ margin-right: 120px;
 
 .checkbox-input:checked + .checkbox-text span {
     border: none;
-    background-color: fill: #404BBF;
-        stroke-width: 1px;
-        stroke: #404BBF;
+    background-color: #404bbf;
+    background-color: fill: #F4F4FD;
+    stroke-width: 1px;
+    stroke: #404BBF;
+    
         
 
 }
@@ -813,7 +815,7 @@ margin-right: 120px;
 }
 
 .checkbox-span {
-    
+
 }
 
 .checkbox-icon {
@@ -858,4 +860,21 @@ margin-right: 120px;
 
 .modal-input::placeholder {
    
+}
+
+.modal-btn {
+display: block;
+min-width: 169px;
+height: 56px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #ffffff;
+cursor: pointer;
+background-color: #4D5AE5;
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+border-radius: 4px;
+background: #4D5AE;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
