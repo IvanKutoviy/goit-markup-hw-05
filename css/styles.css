@@ -628,8 +628,8 @@ margin-right: 120px;
     fill: #f4f4fd;
 }
 
-.footer-mail {
-display: flex;
+.footer-mail {   
+display: block;
 align-items: baseline;
 margin-left: 80px;
 font-style: normal;
@@ -670,6 +670,29 @@ font-style: normal;
 
 }
 
+.footer-button {
+    display: flex;
+    min-width: 165px;
+    height: 40px;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    border: none;
+}
+
+.footer-buuton-svg {
+    margin-left: 16px;
+    fill: #FFFFFF;
+}
 
 /**--------------------------------------------*/
 
@@ -891,7 +914,6 @@ font-style: normal;
 }
 
 .model-icon {
-    fill: transparent;
     position: absolute;
     stroke: #2E2F42;
     left: 16px;
