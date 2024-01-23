@@ -826,7 +826,7 @@ font-style: normal;
 }
 
 .checkbox {
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 
 }
 
@@ -886,6 +886,10 @@ font-style: normal;
 
 .checkbox-span {
 
+}
+
+.checkbox-name {
+    
 }
 
 .checkbox-icon {
