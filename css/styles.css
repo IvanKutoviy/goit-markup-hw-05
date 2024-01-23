@@ -826,7 +826,7 @@ font-style: normal;
 }
 
 .checkbox {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 
 }
 
@@ -834,10 +834,14 @@ font-style: normal;
 
 }
 
+.checkbox-input:focus {
+    fill: #4D5AE5;
+}
+
 .checkbox-input:checked + .checkbox-text span {
     border: none;
     background-color: #404bbf;
-    background-color: fill: #F4F4FD;
+    fill: #F4F4FD;
     stroke-width: 1px;
     stroke: #404BBF;
     
@@ -874,6 +878,7 @@ font-style: normal;
     fill: transparent;
     width: 16px;
     height: 16px;
+    margin-right: 8px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -927,6 +932,7 @@ font-style: normal;
 }
 
 .modal-btn {
+margin: 0 auto;
 display: block;
 min-width: 169px;
 height: 56px;
